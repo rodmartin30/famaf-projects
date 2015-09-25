@@ -1,0 +1,23 @@
+# 9 15
+
+graph G {
+	3 -- 7 [label=3, color=red, style=bold];
+	3 -- 5 [label=5, color=red, style=bold];
+	4 -- 0 [label=6, color=red, style=bold];
+	2 -- 3 [label=8, color=red, style=bold];
+	0 -- 8 [label=9, color=red, style=bold];
+	5 -- 8 [label=10, color=red, style=bold];
+	1 -- 4 [label=11, color=red, style=bold];
+	7 -- 2 [label=11];
+	2 -- 5 [label=12];
+	0 -- 2 [label=13];
+	0 -- 1 [label=15];
+	6 -- 8 [label=17, color=red, style=bold];
+	3 -- 8 [label=20];
+	7 -- 8 [label=21];
+	1 -- 6 [label=25];
+}
+
+# MST : 69
+# Has a cycle: NO
+# Connected components : 1

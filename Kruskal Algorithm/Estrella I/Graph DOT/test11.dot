@@ -1,0 +1,11 @@
+# 3 3
+
+graph G {
+	0 -- 1 [label=1, color=red, style=bold];
+	2 -- 0 [label=1, color=red, style=bold];
+	1 -- 2 [label=1];
+}
+
+# MST : 2
+# Has a cycle: NO
+# Connected components : 1

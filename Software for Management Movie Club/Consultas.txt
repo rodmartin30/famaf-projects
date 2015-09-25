@@ -1,0 +1,22 @@
+1) Se quiere saber que socios vinieron entre el 07/10/2012 y el 30/10/2012 cuyo nombre comienze con una letra c y p. Muestre nombre, documento y mail. Ordenar por apellido y nombre. Rotule
+2) Se quiere saber los titulos de los materiales audiovisuales que todavia no han sido alquilados. 
+3) Se quiere saber la cantidad de DVDs alquilados y el importe en lo que va del año por titulo
+4) Listar el nombre y apellido de los socios por un lado y los empleados por el otro con la cantidad de material audiovisul que alquilaron. Rotular si es cliente o empleado.
+5) Se quiere saber el codigo de empleado, nombre, fecha y el movimiento para las ventas en lo que va del año. Mostrar los empleados aun asi no tengan ventas registradas en el año solicitado
+6) Se quiere saber la fecha del primer y ultimo movimiento, el importe total por socio para los años que oscilan entre 2007 y 2010 y que el importe promedio facturado sea menor que el importe promedio total para ese socio
+
+
+1) Select s.apellido 'Apellido', s.nombre 'Nombre', s.documento 'Documento', s.e_mail 'Email', s.calle 'Calle', s.numero 'Numero', b.barrio 'Barrio' from socios s, barrios b, where s.id_socio in (Select id_socio from movimientos where fecha between '07/10/2012' and '30/10/2012' and s.nombre like '[c-p]%' and b.id_barrio = s.id_barrio order by s.apellido, s.nombre)
+
+2) Select m.id_material 'ID material', m.titulo 'Titulo', from materialAV where m.id_material not in (Select m.id_material from materialAV m, copias c, detalles_movimientos d where d.id_copia = c.id_copia and c.id_material = m.id_material)
+
+3) Select ma.titulo 'Titulo', count(d.id_copia) 'Cantidad de peliculas', sum(d.precio) 'Importe total' from detalles_movimientos d, movimientos m, copias c, formatos f, materialesAV ma where d.id_movimiento = m.id_movimiento and d.id_copia = c.id_copia and c.id_formato = f.id_formato and f.formato = 'dvd' and year(m.fecha) = year(getdate()) group by ma.titulo
+
+4) Select  s.apellido + ' ' + s.nombre 'Apellido y nombre',count(id_copia) 'Cantidad alquilada', 'Socio'  from socios s,detalles_movimientos d, movimientos m where s.id_socio = m.id_socio and d.id_movimiento = m.id_movimiento group by s.apellido + ' ' + s.nombre
+union
+Select e.apellido + ' ' + e.nombre,count(id_copia), 'Empleado' from empleados e,detalles_movimientos d, movimientos m where e.id_empleado = m.id_empleado and d.id_movimiento = m.id_movimiento group by e.apellido + ' ' + e.nombre
+
+5) Select e.id_empleado 'ID empleado ', nombre 'Nombre', fecha 'Fecha', id_movimiento 'ID movimiento' from empleados e left join movimientos m on m.id_empleado = e.id_empleado and year(fecha) = year(getdate()) 
+
+6)Select s.id_socio, apellido + ',' + nombre 'Socio',  min(fecha)'Primer movimiento', max(fecha) 'Ultimo movimiento',  sum(precio) 'Importe total' from detalles_movimientos d,movimientos m ,socios s where m.id_movimiento = d.id_movimiento  and m.id_socio = s.id_socio 
+ and year(fecha) between 2007 and 2010 group by s.id_socio, apellido + ',' + nombre having avg(precio) < (select avg(precio)  from detalles_movimientos d1,movimientos m1  where d1.id_movimiento=m1.id_movimiento and  m1.id_socio=s.id_socio) 

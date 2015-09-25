@@ -1,0 +1,38 @@
+C:\Users\Martin\Desktop\TP\TP\bin\Debug\TP.exe
+C:\Users\Martin\Desktop\TP\TP\bin\Debug\TP.pdb
+C:\Users\Martin\Desktop\TP\TP\obj\x86\Debug\TP.Form1.resources
+C:\Users\Martin\Desktop\TP\TP\obj\x86\Debug\TP.frmBusquedas.resources
+C:\Users\Martin\Desktop\TP\TP\obj\x86\Debug\TP.frmEmpleado.resources
+C:\Users\Martin\Desktop\TP\TP\obj\x86\Debug\TP.frmMaterial.resources
+C:\Users\Martin\Desktop\TP\TP\obj\x86\Debug\TP.frmSocio.resources
+C:\Users\Martin\Desktop\TP\TP\obj\x86\Debug\TP.Properties.Resources.resources
+C:\Users\Martin\Desktop\TP\TP\obj\x86\Debug\TP.csproj.GenerateResource.Cache
+C:\Users\Martin\Desktop\TP\TP\obj\x86\Debug\TP.exe
+C:\Users\Martin\Desktop\TP\TP\obj\x86\Debug\TP.pdb
+C:\Users\Martin\Desktop\TP\TP\obj\x86\Debug\TP.csprojResolveAssemblyReference.cache
+C:\Users\Facu\Desktop\TP\TP\obj\x86\Debug\TP.exe
+C:\Users\Facu\Desktop\TP\TP\obj\x86\Debug\TP.pdb
+C:\Users\Facu\Desktop\TP\TP\bin\Debug\TP.exe
+C:\Users\Facu\Desktop\TP\TP\bin\Debug\TP.pdb
+C:\Users\Facu\Desktop\TP\TP\obj\x86\Debug\TP.csprojResolveAssemblyReference.cache
+C:\Users\Facu\Desktop\TP\TP\obj\x86\Debug\TP.Form1.resources
+C:\Users\Facu\Desktop\TP\TP\obj\x86\Debug\TP.frmBusquedas.resources
+C:\Users\Facu\Desktop\TP\TP\obj\x86\Debug\TP.frmEmpleado.resources
+C:\Users\Facu\Desktop\TP\TP\obj\x86\Debug\TP.frmMaterial.resources
+C:\Users\Facu\Desktop\TP\TP\obj\x86\Debug\TP.frmSocio.resources
+C:\Users\Facu\Desktop\TP\TP\obj\x86\Debug\TP.Properties.Resources.resources
+C:\Users\Facu\Desktop\TP\TP\obj\x86\Debug\TP.csproj.GenerateResource.Cache
+C:\Users\Facu\Desktop\TP - copia\TP\obj\x86\Debug\TP.exe
+C:\Users\Facu\Desktop\TP - copia\TP\obj\x86\Debug\TP.pdb
+C:\Users\Facu\Desktop\TP - copia\TP\bin\Debug\TP.exe.config
+C:\Users\Facu\Desktop\TP - copia\TP\bin\Debug\TP.exe
+C:\Users\Facu\Desktop\TP - copia\TP\bin\Debug\TP.pdb
+C:\Users\Facu\Desktop\TP - copia\TP\obj\x86\Debug\TP.csprojResolveAssemblyReference.cache
+C:\Users\Facu\Desktop\TP - copia\TP\obj\x86\Debug\TP.Form1.resources
+C:\Users\Facu\Desktop\TP - copia\TP\obj\x86\Debug\TP.frmBusquedas.resources
+C:\Users\Facu\Desktop\TP - copia\TP\obj\x86\Debug\TP.frmEmpleado.resources
+C:\Users\Facu\Desktop\TP - copia\TP\obj\x86\Debug\TP.frmMaterial.resources
+C:\Users\Facu\Desktop\TP - copia\TP\obj\x86\Debug\TP.frmSocio.resources
+C:\Users\Facu\Desktop\TP - copia\TP\obj\x86\Debug\TP.Properties.Resources.resources
+C:\Users\Facu\Desktop\TP - copia\TP\obj\x86\Debug\TP.csproj.GenerateResource.Cache
+C:\Users\Facu\Desktop\TP - copia\TP\obj\x86\Debug\TP.frmReport.resources

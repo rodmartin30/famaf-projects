@@ -1,0 +1,92 @@
+#include <assert.h>
+#include <stdlib.h>
+#include <stdbool.h>
+
+#include "stack.h"
+
+#define TAM 1
+struct _stack_t {
+    unsigned int top;
+    bst_t bst[TAM];
+    struct _stack_t *next;
+};
+
+
+stack_t stack_empty(void) {
+    stack_t result = calloc(1, sizeof(struct _stack_t));
+    result->top = 0;
+    result->next = NULL;
+
+    return result;
+}
+
+bool stack_is_empty(stack_t stack) {
+    return stack->top == 0;
+}
+
+bst_t stack_top(stack_t stack) {
+    assert(stack != NULL);
+    stack_t current = stack;
+    while (current->next != NULL) {
+        current = current->next;
+    }
+    
+    return current->bst[current->top - 1];
+}
+
+stack_t stack_push(stack_t stack, bst_t bst) {
+    stack_t current = stack;
+    unsigned int tmp = stack->top;
+    if (tmp + 1 <= TAM) {
+        stack->bst[tmp] = bst;
+        stack->top = stack->top + 1;
+    } else {
+        while (current->next != NULL) {
+            current = current->next;
+        }
+        tmp = current->top;
+        if (tmp + 1 <= TAM) {
+            current->next->bst[current->next->top] = bst;
+            current->next->top += 1;
+        } else {
+            current->next = calloc(1, sizeof(struct _stack_t));
+            current->next->top = 0;
+            current->next->bst[current->next->top] = bst;
+            current->next->top += 1;
+        }
+    }
+
+    return stack;
+}
+
+stack_t stack_pop(stack_t stack) {
+
+    stack_t current = stack, prev = NULL;
+    while (current->next != NULL) {
+        prev = current;
+        current = current->next;
+    }
+    if (current->top - 1 == 0) {
+        if (prev != NULL) {
+            prev->next = NULL;
+            free(current);
+        } else {
+            current->top -= 1;
+        }
+    } else {
+        current->top -= 1;
+    }
+
+    return stack;
+}
+
+stack_t stack_destroy(stack_t stack) {
+    stack_t current = stack;
+    while (stack != NULL) {
+        current = stack;
+        stack = stack->next;
+        free(current);
+    }
+
+    return stack;
+}

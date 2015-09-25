@@ -1,0 +1,18 @@
+#include <assert.h>
+#include <stdlib.h>
+#include <stdbool.h>
+
+#include "stack.h"
+int main(void) {
+    
+    stack_t stack = stack_empty();
+    stack = stack_push(stack,1);
+    stack = stack_push(stack,2);
+    stack = stack_push(stack,3);
+    stack = stack_push(stack,4);
+    stack = stack_push(stack,5);
+    printf("%d\n",stack_top(stack));
+    
+
+	return 0;
+}	

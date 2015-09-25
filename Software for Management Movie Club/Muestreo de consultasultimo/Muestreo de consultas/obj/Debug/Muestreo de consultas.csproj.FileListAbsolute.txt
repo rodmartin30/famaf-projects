@@ -1,0 +1,30 @@
+C:\Users\Facu\Desktop\Muestreo de consultas\Muestreo de consultas\bin\Debug\Muestreo de consultas.exe.config
+C:\Users\Facu\Desktop\Muestreo de consultas\Muestreo de consultas\bin\Debug\Muestreo de consultas.exe
+C:\Users\Facu\Desktop\Muestreo de consultas\Muestreo de consultas\bin\Debug\Muestreo de consultas.pdb
+C:\Users\Facu\Desktop\Muestreo de consultas\Muestreo de consultas\obj\Debug\Muestreo de consultas.csprojResolveAssemblyReference.cache
+C:\Users\Facu\Desktop\Muestreo de consultas\Muestreo de consultas\obj\Debug\Muestreo_de_consultas.Form1.resources
+C:\Users\Facu\Desktop\Muestreo de consultas\Muestreo de consultas\obj\Debug\Muestreo_de_consultas.Properties.Resources.resources
+C:\Users\Facu\Desktop\Muestreo de consultas\Muestreo de consultas\obj\Debug\Muestreo de consultas.csproj.GenerateResource.Cache
+C:\Users\Facu\Desktop\Muestreo de consultas\Muestreo de consultas\obj\Debug\Muestreo de consultas.exe
+C:\Users\Facu\Desktop\Muestreo de consultas\Muestreo de consultas\obj\Debug\Muestreo de consultas.pdb
+C:\Users\Martin\Desktop\Muestreo de consultas\Muestreo de consultas\bin\Debug\Muestreo de consultas.exe.config
+C:\Users\Martin\Desktop\Muestreo de consultas\Muestreo de consultas\obj\Debug\Muestreo de consultas.exe
+C:\Users\Martin\Desktop\Muestreo de consultas\Muestreo de consultas\obj\Debug\Muestreo de consultas.pdb
+C:\Users\Martin\Desktop\Muestreo de consultas\Muestreo de consultas\bin\Debug\Muestreo de consultas.exe
+C:\Users\Martin\Desktop\Muestreo de consultas\Muestreo de consultas\bin\Debug\Muestreo de consultas.pdb
+C:\Users\Martin\Desktop\Muestreo de consultas\Muestreo de consultas\obj\Debug\Muestreo de consultas.csprojResolveAssemblyReference.cache
+C:\Users\Martin\Desktop\Muestreo de consultas\Muestreo de consultas\obj\Debug\Muestreo_de_consultas.Form1.resources
+C:\Users\Martin\Desktop\Muestreo de consultas\Muestreo de consultas\obj\Debug\Muestreo_de_consultas.Properties.Resources.resources
+C:\Users\Martin\Desktop\Muestreo de consultas\Muestreo de consultas\obj\Debug\Muestreo de consultas.csproj.GenerateResource.Cache
+C:\Users\Martin\Dropbox\Trabajo practico Laboratorio - Programacion 2013\Muestreo de consultas\Muestreo de consultas\bin\Debug\Muestreo de consultas.exe.config
+C:\Users\Martin\Dropbox\Trabajo practico Laboratorio - Programacion 2013\Muestreo de consultas\Muestreo de consultas\obj\Debug\Muestreo de consultas.exe
+C:\Users\Martin\Dropbox\Trabajo practico Laboratorio - Programacion 2013\Muestreo de consultas\Muestreo de consultas\obj\Debug\Muestreo de consultas.pdb
+C:\Users\Martin\Dropbox\Trabajo practico Laboratorio - Programacion 2013\Muestreo de consultas\Muestreo de consultas\bin\Debug\Muestreo de consultas.exe
+C:\Users\Martin\Dropbox\Trabajo practico Laboratorio - Programacion 2013\Muestreo de consultas\Muestreo de consultas\bin\Debug\Muestreo de consultas.pdb
+C:\Users\Martin\Dropbox\Trabajo practico Laboratorio - Programacion 2013\Muestreo de consultas\Muestreo de consultas\obj\Debug\Muestreo de consultas.csprojResolveAssemblyReference.cache
+C:\Users\Martin\Dropbox\Trabajo practico Laboratorio - Programacion 2013\Muestreo de consultas\Muestreo de consultas\obj\Debug\Muestreo_de_consultas.Form1.resources
+C:\Users\Martin\Dropbox\Trabajo practico Laboratorio - Programacion 2013\Muestreo de consultas\Muestreo de consultas\obj\Debug\Muestreo_de_consultas.Properties.Resources.resources
+C:\Users\Martin\Dropbox\Trabajo practico Laboratorio - Programacion 2013\Muestreo de consultas\Muestreo de consultas\obj\Debug\Muestreo de consultas.csproj.GenerateResource.Cache
+C:\Users\Martin\Desktop\Muestreo de consultasultimo\Muestreo de consultas\bin\Debug\Muestreo de consultas.exe.config
+C:\Users\Martin\Desktop\Muestreo de consultasultimo\Muestreo de consultas\obj\Debug\Muestreo de consultas.exe
+C:\Users\Martin\Desktop\Muestreo de consultasultimo\Muestreo de consultas\obj\Debug\Muestreo de consultas.pdb
